@@ -21,3 +21,7 @@ len(t[t == 0]), len(t[t == 1])
 import numpy as np
 t = np.where(t==0,1,0)
 t[:3]
+
+# パラメータのチューニングを行う
+
+# モデルを保存する
